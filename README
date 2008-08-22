@@ -1,0 +1,20 @@
+This is a user-friendly object-oriented wrapper for TokyoCabinet HDB & BDB.
+Methods with obscure arguments accept both options hash and old fashion arguments.
+Failed methods raise TokyoCabinet::Error instead of returning false.
+
+AUTHORSHIP
+
+  Initial author: Oleg Andreev <oleganza@gmail.com>
+  Date: August 22, 2008.
+
+LICENSE
+
+  I release this code as a public domain.
+  Feel free to copy, distribute and modify this code in any way you want.
+
+TODO
+  
+  1. specs, specs, specs.
+  2. Rakefile + gem task
+  
+  
