@@ -76,5 +76,5 @@ end
  
 desc "Run :clean and uninstall the .gem"
 task :uninstall => :clean do
-  sh %{#{sudo} gem uninstall #{NAME}}
+  sh %{#{sudo} gem uninstall #{GEM_NAME}}
 end
